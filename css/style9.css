@@ -1,0 +1,190 @@
+header{
+   display: flex;
+   justify-content: space-between;
+   border: none;
+   background-color: rgb(248, 159, 220);
+   font-family: 'Courier New', Courier, monospace;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-size: larger;
+}
+a{
+    text-decoration: none;
+}
+a:hover , a:active{
+    background-color: gray;
+    opacity: 0.5;
+    color: black;
+} 
+.main span{
+    font-size: 64px;
+    color: aliceblue;
+}
+.main p{
+    font-size: 20px;
+    color: aliceblue;
+}
+.main button{
+    font-size: larger;
+    padding: 20px 20px 20px 20px;
+    border: none;
+    background-color: rgb(188, 106, 180);
+    margin-top: 50px;
+}
+.main{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKDvM-JUfdQ-o5TDAYEIBi6H6zwctO0Fkb-Q&usqp=CAU);
+    height: 400px;
+    padding: 0 30px;
+    
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+margin-top: 100px;
+}
+.main-1{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 60px;
+}
+
+.second-1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 120px;
+}
+.main-2{
+    display: flex;
+    background-color: rgb(187, 186, 186);
+    margin-top: 70px;
+}
+.main-2 button{
+    padding: 10px;
+
+}
+.second-6{
+    font-size:larger;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 20px 20px 20px;
+}
+.second-6 button{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(241, 49, 219);
+    color: aliceblue;
+    margin-top: 70px;
+}
+
+.second-8{
+    text-align: center;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.main-3{
+    display: flex;
+  font-size: large;
+}
+.main-3 img{
+width: 300px;
+height: 200px;
+}
+.main-3 span{
+    color: gray;
+}
+.main-3 button{
+    background-color: rgb(247, 30, 229);
+    padding: 10px;
+}
+.main-4{
+    background-color: rgb(191, 190, 190);
+    padding: 20px 30px 20px 30px;
+    margin-top: 70px;
+}
+.number{
+    font-size: 50px;
+    justify-content: space-between;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+}
+.second-9{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    font-size: larger;
+}
+.second-10{
+    text-align: center;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 50px;
+}
+.main-5{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.second-11{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 60px;
+    color: darkgray;
+}
+.second-12{
+    font-size: 20px;
+    color: rgb(213, 110, 213);
+}
+.class-1{
+    text-align: center;
+    padding: 10px;
+}
+.class-1 button{
+    background-color: rgb(235, 48, 235);
+    padding: 15px;
+    border: none;
+}
+.class{
+    width: 100%;
+}
+.class-2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 60px;
+    color: rgb(232, 24, 166);
+}
+.class{
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+footer{
+    text-align: center;
+    background-color: rgb(255, 201, 245);
+}
+form{
+    margin-top: 40px;
+    background-color: rgb(255, 168, 215);
+    color: white;
+    padding: 30px;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ form [type="submit"] [type="reset"] {
+background-color: aliceblue;
+color: deeppink;
+padding: 30px;
+border: none;
+}
